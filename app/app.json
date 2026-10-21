@@ -18,9 +18,15 @@
       },
       "predictiveBackGestureEnabled": false
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "experiments": {
+    "baseUrl": "/bikebuddy"
     },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "output": "single"
+    },
+
     "plugins": [
       "expo-font"
     ]
