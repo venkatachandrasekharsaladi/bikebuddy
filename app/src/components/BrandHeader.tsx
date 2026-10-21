@@ -1,0 +1,10 @@
+import React from 'react';
+import { Pressable, StyleSheet, Text, View } from 'react-native';
+import { useTheme } from '../theme/useTheme';
+
+export function BrandHeader({ title = 'BikeBuddy', subtitle, onProfile }: { title?: string; subtitle?: string; onProfile?: () => void }) {
+  const theme = useTheme();
+  return <View style={[styles.header, { borderBottomColor: theme.colors.border, backgroundColor: theme.colors.background }]}><View style={[styles.logo, { backgroundColor: theme.colors.primary }]}><Text style={[styles.logoText, { color: theme.colors.onPrimary }]}>⌁</Text></View><View style={styles.copy}><Text style={[styles.title, { color: theme.colors.text, fontFamily: theme.fontFamily }]}>{title}</Text>{subtitle ? <Text style={[styles.subtitle, { color: theme.colors.primary, fontFamily: theme.fontFamily }]}>{subtitle}</Text> : null}</View><Pressable accessibilityRole="button" accessibilityLabel="Open notifications" style={styles.action}><Text style={[styles.actionText, { color: theme.colors.text }]}>♧</Text></Pressable><Pressable accessibilityRole="button" accessibilityLabel="Open profile" onPress={onProfile} style={[styles.profile, { backgroundColor: theme.colors.surfaceAlt, borderColor: theme.colors.primary }]}><Text style={{ color: theme.colors.text }}>○</Text></Pressable></View>;
+}
+
+const styles = StyleSheet.create({ header: { minHeight: 72, flexDirection: 'row', alignItems: 'center', paddingHorizontal: 20, gap: 10, borderBottomWidth: 1 }, logo: { width: 42, height: 42, borderRadius: 14, alignItems: 'center', justifyContent: 'center' }, logoText: { fontSize: 28, fontWeight: '700' }, copy: { flex: 1 }, title: { fontSize: 22, lineHeight: 28, fontWeight: '700' }, subtitle: { fontSize: 12, lineHeight: 16, fontWeight: '700', letterSpacing: 0.8 }, action: { width: 48, height: 48, alignItems: 'center', justifyContent: 'center' }, actionText: { fontSize: 24 }, profile: { width: 44, height: 44, borderRadius: 22, borderWidth: 1, alignItems: 'center', justifyContent: 'center' } });

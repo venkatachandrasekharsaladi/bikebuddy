@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { ActivityIndicator, Alert, FlatList, Image, ScrollView, StyleSheet, Text, View } from 'react-native';
 import * as ImagePicker from 'expo-image-picker';
+import { requestPhotoPermission } from '../../services/permissionService';
 import { Button, Card, Chip, EmptyState, Input, ListRow } from '../../components/ui';
 import { getComments, getPosts } from '../../services/communityService';
 import { Comment, Post } from '../../types';
@@ -30,7 +31,7 @@ function SectionContent({ section, onBack }: { section: Section; onBack: () => v
 }
 function Composer({ onCancel, onPost }: { onCancel: () => void; onPost: (post: Post) => void }) {
   const theme = useTheme(); const [text, setText] = useState(''); const [photoUri, setPhotoUri] = useState<string>();
-  const choosePhoto = async () => { const result = await ImagePicker.launchImageLibraryAsync({ mediaTypes: ['images'], quality: 0.8 }); if (!result.canceled) setPhotoUri(result.assets[0].uri); };
+  const choosePhoto = async () => { const permission = await requestPhotoPermission(); if (!permission.granted) { Alert.alert('Photo access needed', 'Allow photo access to add a picture to your post.'); return; } const result = await ImagePicker.launchImageLibraryAsync({ mediaTypes: ['images'], quality: 0.8 }); if (!result.canceled) setPhotoUri(result.assets[0].uri); };
   return <ScrollView contentContainerStyle={styles.page}><Button label="Cancel" variant="ghost" onPress={onCancel} /><Text style={[styles.title, { color: theme.colors.text, fontFamily: theme.fontFamily }]}>New post</Text><Input label="Share something useful" value={text} onChangeText={setText} multiline placeholder="A simple bike tip..." /><Button label={photoUri ? 'Photo added' : 'Add photo'} variant="secondary" onPress={() => void choosePhoto()} />{photoUri ? <Image source={{ uri: photoUri }} style={styles.photo} /> : null}<Button label="Post" onPress={() => { if (!text.trim()) { Alert.alert('Add a few words', 'Tell riders what you learned.'); return; } onPost({ id: `post-${Date.now()}`, author: 'Asha Mehta', text: text.trim(), photoUri, likeCount: 0, commentCount: 0, group: 'New Riders', createdAt: new Date().toISOString() }); }} /></ScrollView>;
 }
 function PostDetail({ post, onBack }: { post: Post; onBack: () => void }) {

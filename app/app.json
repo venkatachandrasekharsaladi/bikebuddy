@@ -7,9 +7,21 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "BikeBuddy uses the camera to scan service bills.",
+        "NSPhotoLibraryUsageDescription": "BikeBuddy uses your photos for bike pictures, bills, and community posts.",
+        "NSUserNotificationsUsageDescription": "BikeBuddy sends reminders for care tasks and services.",
+        "NSLocationWhenInUseUsageDescription": "BikeBuddy uses your location to find nearby fuel stations."
+      }
     },
     "android": {
+      "permissions": [
+        "CAMERA",
+        "READ_MEDIA_IMAGES",
+        "POST_NOTIFICATIONS",
+        "ACCESS_FINE_LOCATION"
+      ],
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
@@ -19,16 +31,33 @@
       "predictiveBackGestureEnabled": false
     },
     "experiments": {
-    "baseUrl": "/bikebuddy"
+      "baseUrl": "/bikebuddy"
     },
     "web": {
       "favicon": "./assets/favicon.png",
       "bundler": "metro",
       "output": "single"
     },
-
     "plugins": [
-      "expo-font"
+      "expo-font",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "BikeBuddy uses your photos for bike pictures, bills, and community posts."
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "BikeBuddy uses the camera to scan service bills."
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "color": "#FF6B1A"
+        }
+      ]
     ]
   }
 }
