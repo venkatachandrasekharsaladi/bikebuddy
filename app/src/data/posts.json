@@ -1,0 +1,92 @@
+[
+  {
+    "id": "post-1",
+    "author": "Asha",
+    "text": "What is the easiest way to keep a chain clean?",
+    "likeCount": 12,
+    "commentCount": 2,
+    "group": "Mumbai Riders",
+    "createdAt": "2026-02-01"
+  },
+  {
+    "id": "post-2",
+    "author": "Ravi",
+    "text": "My bike feels smoother after checking tyre pressure.",
+    "likeCount": 15,
+    "commentCount": 3,
+    "group": "Royal Enfield Club",
+    "createdAt": "2026-02-02"
+  },
+  {
+    "id": "post-3",
+    "author": "Meera",
+    "text": "Which tool should every new rider carry?",
+    "likeCount": 18,
+    "commentCount": 4,
+    "group": "New Riders",
+    "createdAt": "2026-02-03"
+  },
+  {
+    "id": "post-4",
+    "author": "Kabir",
+    "text": "Share your favourite weekend route.",
+    "likeCount": 21,
+    "commentCount": 5,
+    "group": "Mumbai Riders",
+    "createdAt": "2026-02-04"
+  },
+  {
+    "id": "post-5",
+    "author": "Asha",
+    "text": "What is the easiest way to keep a chain clean?",
+    "likeCount": 24,
+    "commentCount": 2,
+    "group": "Royal Enfield Club",
+    "createdAt": "2026-02-05"
+  },
+  {
+    "id": "post-6",
+    "author": "Ravi",
+    "text": "My bike feels smoother after checking tyre pressure.",
+    "likeCount": 27,
+    "commentCount": 3,
+    "group": "New Riders",
+    "createdAt": "2026-02-06"
+  },
+  {
+    "id": "post-7",
+    "author": "Meera",
+    "text": "Which tool should every new rider carry?",
+    "likeCount": 30,
+    "commentCount": 4,
+    "group": "Mumbai Riders",
+    "createdAt": "2026-02-07"
+  },
+  {
+    "id": "post-8",
+    "author": "Kabir",
+    "text": "Share your favourite weekend route.",
+    "likeCount": 33,
+    "commentCount": 5,
+    "group": "Royal Enfield Club",
+    "createdAt": "2026-02-08"
+  },
+  {
+    "id": "post-9",
+    "author": "Asha",
+    "text": "What is the easiest way to keep a chain clean?",
+    "likeCount": 36,
+    "commentCount": 2,
+    "group": "New Riders",
+    "createdAt": "2026-02-09"
+  },
+  {
+    "id": "post-10",
+    "author": "Ravi",
+    "text": "My bike feels smoother after checking tyre pressure.",
+    "likeCount": 39,
+    "commentCount": 3,
+    "group": "Mumbai Riders",
+    "createdAt": "2026-02-10"
+  }
+]

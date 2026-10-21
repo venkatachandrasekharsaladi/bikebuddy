@@ -1,0 +1,118 @@
+[
+  {
+    "id": "station-1",
+    "name": "HP Fuel Point",
+    "latitude": 19.07,
+    "longitude": 72.87,
+    "distanceKm": 0.6,
+    "open": true,
+    "openTime": "06:00",
+    "closeTime": "24 hours",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel",
+      "CNG"
+    ]
+  },
+  {
+    "id": "station-2",
+    "name": "IndianOil Highway Stop",
+    "latitude": 19.078,
+    "longitude": 72.876,
+    "distanceKm": 1.3,
+    "open": true,
+    "openTime": "06:00",
+    "closeTime": "23:00",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel"
+    ]
+  },
+  {
+    "id": "station-3",
+    "name": "Bharat Petroleum Central",
+    "latitude": 19.086,
+    "longitude": 72.882,
+    "distanceKm": 2.0,
+    "open": true,
+    "openTime": "06:00",
+    "closeTime": "23:00",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel",
+      "CNG"
+    ]
+  },
+  {
+    "id": "station-4",
+    "name": "Shell Express",
+    "latitude": 19.094,
+    "longitude": 72.888,
+    "distanceKm": 2.7,
+    "open": false,
+    "openTime": "06:00",
+    "closeTime": "24 hours",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel"
+    ]
+  },
+  {
+    "id": "station-5",
+    "name": "Nayara Energy",
+    "latitude": 19.102,
+    "longitude": 72.894,
+    "distanceKm": 3.4,
+    "open": true,
+    "openTime": "06:00",
+    "closeTime": "23:00",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel",
+      "CNG"
+    ]
+  },
+  {
+    "id": "station-6",
+    "name": "Reliance Fuel Hub",
+    "latitude": 19.11,
+    "longitude": 72.9,
+    "distanceKm": 4.1,
+    "open": true,
+    "openTime": "06:00",
+    "closeTime": "23:00",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel"
+    ]
+  },
+  {
+    "id": "station-7",
+    "name": "Metro Petrol Pump",
+    "latitude": 19.118,
+    "longitude": 72.906,
+    "distanceKm": 4.8,
+    "open": true,
+    "openTime": "06:00",
+    "closeTime": "24 hours",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel",
+      "CNG"
+    ]
+  },
+  {
+    "id": "station-8",
+    "name": "Green Drive Fuels",
+    "latitude": 19.126,
+    "longitude": 72.912,
+    "distanceKm": 5.5,
+    "open": false,
+    "openTime": "06:00",
+    "closeTime": "23:00",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel"
+    ]
+  }
+]

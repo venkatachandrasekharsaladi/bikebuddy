@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+  <g id="bike-assembled" fill="none" stroke="#AAB2BF" stroke-width="18">
+    <circle cx="270" cy="500" r="125"/><circle cx="930" cy="500" r="125"/>
+    <path d="M270 500L460 290 650 500 930 500M460 290L560 500M460 290H700L930 500M650 500L700 290"/>
+  </g>
+  <g id="part-engine" data-anchor-x="560" data-anchor-y="390"><circle cx="560" cy="390" r="38" fill="#667080"/></g>
+  <g id="part-piston" data-anchor-x="560" data-anchor-y="350"><circle cx="560" cy="350" r="16" fill="#667080"/></g>
+  <g id="part-cylinder" data-anchor-x="560" data-anchor-y="300"><rect x="540" y="280" width="40" height="40" fill="#667080"/></g>
+  <g id="part-spark-plug" data-anchor-x="610" data-anchor-y="330"><circle cx="610" cy="330" r="12" fill="#667080"/></g>
+  <g id="part-air-filter" data-anchor-x="500" data-anchor-y="350"><rect x="480" y="330" width="40" height="40" fill="#667080"/></g>
+  <g id="part-fuel-injector" data-anchor-x="530" data-anchor-y="380"><circle cx="530" cy="380" r="12" fill="#667080"/></g>
+  <g id="part-fuel-tank" data-anchor-x="620" data-anchor-y="250"><path d="M560 220h150l30 70H590z" fill="#667080"/></g>
+  <g id="part-exhaust" data-anchor-x="700" data-anchor-y="430"><path d="M620 410h180l30 25H620z" fill="#667080"/></g>
+  <g id="part-clutch" data-anchor-x="620" data-anchor-y="400"><circle cx="620" cy="400" r="22" fill="#667080"/></g>
+  <g id="part-gearbox" data-anchor-x="580" data-anchor-y="430"><rect x="550" y="410" width="60" height="40" fill="#667080"/></g>
+  <g id="part-chain" data-anchor-x="650" data-anchor-y="480"><path d="M580 460H850" stroke="#FF6B1A"/></g>
+  <g id="part-front-sprocket" data-anchor-x="650" data-anchor-y="460"><circle cx="650" cy="460" r="16" fill="#667080"/></g>
+  <g id="part-rear-sprocket" data-anchor-x="830" data-anchor-y="480"><circle cx="830" cy="480" r="22" fill="#667080"/></g>
+  <g id="part-front-brake-disc" data-anchor-x="930" data-anchor-y="500"><circle cx="930" cy="500" r="55" fill="none" stroke="#667080"/></g>
+  <g id="part-brake-pads" data-anchor-x="950" data-anchor-y="470"><rect x="940" y="450" width="25" height="50" fill="#667080"/></g>
+  <g id="part-brake-caliper" data-anchor-x="960" data-anchor-y="450"><rect x="950" y="430" width="35" height="45" fill="#667080"/></g>
+  <g id="part-brake-lever" data-anchor-x="720" data-anchor-y="210"><path d="M710 210h50" stroke="#667080"/></g>
+  <g id="part-rear-brake" data-anchor-x="270" data-anchor-y="500"><circle cx="270" cy="500" r="45" fill="none" stroke="#667080"/></g>
+  <g id="part-front-fork" data-anchor-x="850" data-anchor-y="330"><path d="M850 300l80 200" stroke="#667080"/></g>
+  <g id="part-rear-shock" data-anchor-x="450" data-anchor-y="400"><path d="M450 350l60 140" stroke="#667080"/></g>
+  <g id="part-front-tyre" data-anchor-x="930" data-anchor-y="500"><circle cx="930" cy="500" r="125" fill="none" stroke="#667080"/></g>
+  <g id="part-rear-tyre" data-anchor-x="270" data-anchor-y="500"><circle cx="270" cy="500" r="125" fill="none" stroke="#667080"/></g>
+  <g id="part-rims" data-anchor-x="600" data-anchor-y="500"><circle cx="600" cy="500" r="70" fill="none" stroke="#667080"/></g>
+  <g id="part-spokes" data-anchor-x="600" data-anchor-y="500"><path d="M530 500h140M600 430v140" stroke="#667080"/></g>
+  <g id="part-battery" data-anchor-x="470" data-anchor-y="320"><rect x="450" y="300" width="40" height="40" fill="#667080"/></g>
+  <g id="part-self-starter" data-anchor-x="510" data-anchor-y="300"><circle cx="510" cy="300" r="12" fill="#667080"/></g>
+  <g id="part-headlight" data-anchor-x="870" data-anchor-y="260"><circle cx="870" cy="260" r="28" fill="#667080"/></g>
+  <g id="part-indicators" data-anchor-x="830" data-anchor-y="280"><circle cx="830" cy="280" r="10" fill="#FF6B1A"/></g>
+  <g id="part-handlebar" data-anchor-x="770" data-anchor-y="220"><path d="M720 220h120" stroke="#667080"/></g>
+  <g id="part-frame" data-anchor-x="600" data-anchor-y="380"><path d="M460 290h240L650 500H270" fill="none" stroke="#AAB2BF"/></g>
+  <g id="part-seat" data-anchor-x="520" data-anchor-y="250"><path d="M470 250h130" stroke="#667080" stroke-width="28"/></g>
+  <g id="part-side-stand" data-anchor-x="560" data-anchor-y="510"><path d="M560 480l-35 80" stroke="#667080"/></g>
+</svg>

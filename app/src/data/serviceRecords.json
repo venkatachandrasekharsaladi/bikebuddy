@@ -1,0 +1,40 @@
+[
+  {
+    "id": "service-1",
+    "bikeId": "bike-1",
+    "date": "2025-04-15",
+    "odometerKm": 9000,
+    "centre": "City Bike Care",
+    "totalCostInr": 4200,
+    "partsChanged": [
+      "engine oil",
+      "oil filter"
+    ],
+    "notes": "Routine service and safety check."
+  },
+  {
+    "id": "service-2",
+    "bikeId": "bike-1",
+    "date": "2024-05-15",
+    "odometerKm": 10700,
+    "centre": "Roadside Motors",
+    "totalCostInr": 2850,
+    "partsChanged": [
+      "brake pads"
+    ],
+    "notes": "Routine service and safety check."
+  },
+  {
+    "id": "service-3",
+    "bikeId": "bike-1",
+    "date": "2023-06-15",
+    "odometerKm": 12400,
+    "centre": "Trusted Garage",
+    "totalCostInr": 6100,
+    "partsChanged": [
+      "chain",
+      "rear sprocket"
+    ],
+    "notes": "Routine service and safety check."
+  }
+]

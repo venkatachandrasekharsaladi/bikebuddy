@@ -1,0 +1,353 @@
+[
+  {
+    "id": "clean-chain",
+    "bikeType": "motorcycle",
+    "name": "Clean chain",
+    "description": "Clean chain keeps your bike ready and helps catch problems early.",
+    "intervalDays": null,
+    "intervalKm": 500,
+    "lastDoneAt": "2026-01-01",
+    "lastDoneOdometerKm": 11200,
+    "status": "on-time",
+    "estimatedMinutes": 10,
+    "tools": [
+      "Clean cloth",
+      "Gloves"
+    ],
+    "steps": [
+      {
+        "title": "Get ready",
+        "detail": "Park safely, switch the bike off, and gather the simple tools you need."
+      },
+      {
+        "title": "Look closely",
+        "detail": "Check the part for dirt, loose pieces, or signs of wear."
+      },
+      {
+        "title": "Do the small fix",
+        "detail": "Follow the safe action shown for this task without forcing anything."
+      },
+      {
+        "title": "Check your work",
+        "detail": "Make sure everything is secure before you ride."
+      },
+      {
+        "title": "Clean up",
+        "detail": "Put tools away and wash your hands."
+      }
+    ],
+    "reminderEnabled": true
+  },
+  {
+    "id": "lubricate-chain",
+    "bikeType": "motorcycle",
+    "name": "Lubricate chain",
+    "description": "Lubricate chain keeps your bike ready and helps catch problems early.",
+    "intervalDays": null,
+    "intervalKm": 500,
+    "lastDoneAt": "2026-01-10",
+    "lastDoneOdometerKm": 11320,
+    "status": "due-soon",
+    "estimatedMinutes": 13,
+    "tools": [
+      "Clean cloth",
+      "Gloves"
+    ],
+    "steps": [
+      {
+        "title": "Get ready",
+        "detail": "Park safely, switch the bike off, and gather the simple tools you need."
+      },
+      {
+        "title": "Look closely",
+        "detail": "Check the part for dirt, loose pieces, or signs of wear."
+      },
+      {
+        "title": "Do the small fix",
+        "detail": "Follow the safe action shown for this task without forcing anything."
+      },
+      {
+        "title": "Check your work",
+        "detail": "Make sure everything is secure before you ride."
+      },
+      {
+        "title": "Clean up",
+        "detail": "Put tools away and wash your hands."
+      }
+    ],
+    "reminderEnabled": true
+  },
+  {
+    "id": "tyre-pressure",
+    "bikeType": "motorcycle",
+    "name": "Check tyre pressure",
+    "description": "Check tyre pressure keeps your bike ready and helps catch problems early.",
+    "intervalDays": null,
+    "intervalKm": 14,
+    "lastDoneAt": "2026-01-19",
+    "lastDoneOdometerKm": 11440,
+    "status": "overdue",
+    "estimatedMinutes": 16,
+    "tools": [
+      "Clean cloth",
+      "Gloves"
+    ],
+    "steps": [
+      {
+        "title": "Get ready",
+        "detail": "Park safely, switch the bike off, and gather the simple tools you need."
+      },
+      {
+        "title": "Look closely",
+        "detail": "Check the part for dirt, loose pieces, or signs of wear."
+      },
+      {
+        "title": "Do the small fix",
+        "detail": "Follow the safe action shown for this task without forcing anything."
+      },
+      {
+        "title": "Check your work",
+        "detail": "Make sure everything is secure before you ride."
+      },
+      {
+        "title": "Clean up",
+        "detail": "Put tools away and wash your hands."
+      }
+    ],
+    "reminderEnabled": true
+  },
+  {
+    "id": "engine-oil-level",
+    "bikeType": "motorcycle",
+    "name": "Check engine oil level",
+    "description": "Check engine oil level keeps your bike ready and helps catch problems early.",
+    "intervalDays": 7,
+    "intervalKm": null,
+    "lastDoneAt": "2026-01-28",
+    "lastDoneOdometerKm": 11560,
+    "status": "on-time",
+    "estimatedMinutes": 19,
+    "tools": [
+      "Clean cloth",
+      "Gloves"
+    ],
+    "steps": [
+      {
+        "title": "Get ready",
+        "detail": "Park safely, switch the bike off, and gather the simple tools you need."
+      },
+      {
+        "title": "Look closely",
+        "detail": "Check the part for dirt, loose pieces, or signs of wear."
+      },
+      {
+        "title": "Do the small fix",
+        "detail": "Follow the safe action shown for this task without forcing anything."
+      },
+      {
+        "title": "Check your work",
+        "detail": "Make sure everything is secure before you ride."
+      },
+      {
+        "title": "Clean up",
+        "detail": "Put tools away and wash your hands."
+      }
+    ],
+    "reminderEnabled": true
+  },
+  {
+    "id": "change-engine-oil",
+    "bikeType": "motorcycle",
+    "name": "Change engine oil",
+    "description": "Change engine oil keeps your bike ready and helps catch problems early.",
+    "intervalDays": null,
+    "intervalKm": 5000,
+    "lastDoneAt": "2026-02-06",
+    "lastDoneOdometerKm": 11680,
+    "status": "due-soon",
+    "estimatedMinutes": 22,
+    "tools": [
+      "Clean cloth",
+      "Gloves"
+    ],
+    "steps": [
+      {
+        "title": "Get ready",
+        "detail": "Park safely, switch the bike off, and gather the simple tools you need."
+      },
+      {
+        "title": "Look closely",
+        "detail": "Check the part for dirt, loose pieces, or signs of wear."
+      },
+      {
+        "title": "Do the small fix",
+        "detail": "Follow the safe action shown for this task without forcing anything."
+      },
+      {
+        "title": "Check your work",
+        "detail": "Make sure everything is secure before you ride."
+      },
+      {
+        "title": "Clean up",
+        "detail": "Put tools away and wash your hands."
+      }
+    ],
+    "reminderEnabled": true
+  },
+  {
+    "id": "brake-pads",
+    "bikeType": "motorcycle",
+    "name": "Check brake pads",
+    "description": "Check brake pads keeps your bike ready and helps catch problems early.",
+    "intervalDays": null,
+    "intervalKm": 1000,
+    "lastDoneAt": "2026-02-15",
+    "lastDoneOdometerKm": 11800,
+    "status": "overdue",
+    "estimatedMinutes": 25,
+    "tools": [
+      "Clean cloth",
+      "Gloves"
+    ],
+    "steps": [
+      {
+        "title": "Get ready",
+        "detail": "Park safely, switch the bike off, and gather the simple tools you need."
+      },
+      {
+        "title": "Look closely",
+        "detail": "Check the part for dirt, loose pieces, or signs of wear."
+      },
+      {
+        "title": "Do the small fix",
+        "detail": "Follow the safe action shown for this task without forcing anything."
+      },
+      {
+        "title": "Check your work",
+        "detail": "Make sure everything is secure before you ride."
+      },
+      {
+        "title": "Clean up",
+        "detail": "Put tools away and wash your hands."
+      }
+    ],
+    "reminderEnabled": true
+  },
+  {
+    "id": "clean-air-filter",
+    "bikeType": "motorcycle",
+    "name": "Clean air filter",
+    "description": "Clean air filter keeps your bike ready and helps catch problems early.",
+    "intervalDays": null,
+    "intervalKm": 3000,
+    "lastDoneAt": "2026-02-24",
+    "lastDoneOdometerKm": 11920,
+    "status": "on-time",
+    "estimatedMinutes": 28,
+    "tools": [
+      "Clean cloth",
+      "Gloves"
+    ],
+    "steps": [
+      {
+        "title": "Get ready",
+        "detail": "Park safely, switch the bike off, and gather the simple tools you need."
+      },
+      {
+        "title": "Look closely",
+        "detail": "Check the part for dirt, loose pieces, or signs of wear."
+      },
+      {
+        "title": "Do the small fix",
+        "detail": "Follow the safe action shown for this task without forcing anything."
+      },
+      {
+        "title": "Check your work",
+        "detail": "Make sure everything is secure before you ride."
+      },
+      {
+        "title": "Clean up",
+        "detail": "Put tools away and wash your hands."
+      }
+    ],
+    "reminderEnabled": true
+  },
+  {
+    "id": "battery",
+    "bikeType": "motorcycle",
+    "name": "Check battery",
+    "description": "Check battery keeps your bike ready and helps catch problems early.",
+    "intervalDays": 30,
+    "intervalKm": null,
+    "lastDoneAt": "2026-03-05",
+    "lastDoneOdometerKm": 12040,
+    "status": "due-soon",
+    "estimatedMinutes": 31,
+    "tools": [
+      "Clean cloth",
+      "Gloves"
+    ],
+    "steps": [
+      {
+        "title": "Get ready",
+        "detail": "Park safely, switch the bike off, and gather the simple tools you need."
+      },
+      {
+        "title": "Look closely",
+        "detail": "Check the part for dirt, loose pieces, or signs of wear."
+      },
+      {
+        "title": "Do the small fix",
+        "detail": "Follow the safe action shown for this task without forcing anything."
+      },
+      {
+        "title": "Check your work",
+        "detail": "Make sure everything is secure before you ride."
+      },
+      {
+        "title": "Clean up",
+        "detail": "Put tools away and wash your hands."
+      }
+    ],
+    "reminderEnabled": true
+  },
+  {
+    "id": "coolant",
+    "bikeType": "motorcycle",
+    "name": "Check coolant",
+    "description": "Check coolant keeps your bike ready and helps catch problems early.",
+    "intervalDays": 30,
+    "intervalKm": null,
+    "lastDoneAt": "2026-03-14",
+    "lastDoneOdometerKm": 12160,
+    "status": "overdue",
+    "estimatedMinutes": 34,
+    "tools": [
+      "Clean cloth",
+      "Gloves"
+    ],
+    "steps": [
+      {
+        "title": "Get ready",
+        "detail": "Park safely, switch the bike off, and gather the simple tools you need."
+      },
+      {
+        "title": "Look closely",
+        "detail": "Check the part for dirt, loose pieces, or signs of wear."
+      },
+      {
+        "title": "Do the small fix",
+        "detail": "Follow the safe action shown for this task without forcing anything."
+      },
+      {
+        "title": "Check your work",
+        "detail": "Make sure everything is secure before you ride."
+      },
+      {
+        "title": "Clean up",
+        "detail": "Put tools away and wash your hands."
+      }
+    ],
+    "reminderEnabled": true
+  }
+]

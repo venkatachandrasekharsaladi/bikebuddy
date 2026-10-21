@@ -1,0 +1,148 @@
+[
+  {
+    "id": "mod-1",
+    "name": "LED headlight",
+    "benefit": "Brighter night visibility",
+    "costRange": "Medium",
+    "difficulty": 2,
+    "legalWarrantyNote": "Check local rules and your warranty.",
+    "compatibleBikeTypes": [
+      "motorcycle"
+    ],
+    "wishlist": true
+  },
+  {
+    "id": "mod-2",
+    "name": "Tubeless tyres",
+    "benefit": "Fewer sudden flats",
+    "costRange": "High",
+    "difficulty": 2,
+    "legalWarrantyNote": "Use the correct size for your wheels.",
+    "compatibleBikeTypes": [
+      "motorcycle"
+    ],
+    "wishlist": false
+  },
+  {
+    "id": "mod-3",
+    "name": "Phone mount",
+    "benefit": "Keep maps easy to see",
+    "costRange": "Low",
+    "difficulty": 1,
+    "legalWarrantyNote": "Never let it block your view.",
+    "compatibleBikeTypes": [
+      "motorcycle",
+      "bicycle"
+    ],
+    "wishlist": false
+  },
+  {
+    "id": "mod-4",
+    "name": "Crash guards",
+    "benefit": "Extra protection for the frame",
+    "costRange": "High",
+    "difficulty": 2,
+    "legalWarrantyNote": "Check fit and ground clearance.",
+    "compatibleBikeTypes": [
+      "motorcycle"
+    ],
+    "wishlist": false
+  },
+  {
+    "id": "mod-5",
+    "name": "Top box",
+    "benefit": "Carry a jacket or groceries",
+    "costRange": "Medium",
+    "difficulty": 1,
+    "legalWarrantyNote": "Do not exceed the maker?s weight limit.",
+    "compatibleBikeTypes": [
+      "motorcycle"
+    ],
+    "wishlist": true
+  },
+  {
+    "id": "mod-6",
+    "name": "Comfort seat",
+    "benefit": "Softer rides on long trips",
+    "costRange": "Medium",
+    "difficulty": 1,
+    "legalWarrantyNote": "A changed seat can alter your reach.",
+    "compatibleBikeTypes": [
+      "motorcycle"
+    ],
+    "wishlist": false
+  },
+  {
+    "id": "mod-7",
+    "name": "Engine guard",
+    "benefit": "Protect the lower engine",
+    "costRange": "Medium",
+    "difficulty": 2,
+    "legalWarrantyNote": "Use a model-safe mounting kit.",
+    "compatibleBikeTypes": [
+      "motorcycle"
+    ],
+    "wishlist": false
+  },
+  {
+    "id": "mod-8",
+    "name": "USB charger",
+    "benefit": "Charge a phone on the go",
+    "costRange": "Low",
+    "difficulty": 1,
+    "legalWarrantyNote": "A poor install can drain the battery.",
+    "compatibleBikeTypes": [
+      "motorcycle"
+    ],
+    "wishlist": false
+  },
+  {
+    "id": "mod-9",
+    "name": "Better brake pads",
+    "benefit": "Stronger stopping feel",
+    "costRange": "Medium",
+    "difficulty": 2,
+    "legalWarrantyNote": "Choose approved pads for your model.",
+    "compatibleBikeTypes": [
+      "motorcycle"
+    ],
+    "wishlist": true
+  },
+  {
+    "id": "mod-10",
+    "name": "Chain oiler",
+    "benefit": "Keep chain lube even",
+    "costRange": "High",
+    "difficulty": 3,
+    "legalWarrantyNote": "Check that oil cannot reach the tyre.",
+    "compatibleBikeTypes": [
+      "motorcycle"
+    ],
+    "wishlist": false
+  },
+  {
+    "id": "mod-11",
+    "name": "Wind screen",
+    "benefit": "Reduce wind on open roads",
+    "costRange": "Medium",
+    "difficulty": 1,
+    "legalWarrantyNote": "It must not block your view.",
+    "compatibleBikeTypes": [
+      "motorcycle"
+    ],
+    "wishlist": false
+  },
+  {
+    "id": "mod-12",
+    "name": "Reflective tape",
+    "benefit": "Help others see you",
+    "costRange": "Low",
+    "difficulty": 1,
+    "legalWarrantyNote": "Use legal colours and safe surfaces.",
+    "compatibleBikeTypes": [
+      "motorcycle",
+      "bicycle"
+    ],
+    "wishlist": false
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "id": "user-1",
+  "name": "Asha Mehta",
+  "city": "Mumbai",
+  "avatarUri": "",
+  "bikeIds": [
+    "bike-1"
+  ]
+}

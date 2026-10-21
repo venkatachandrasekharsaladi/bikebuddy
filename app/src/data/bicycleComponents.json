@@ -1,0 +1,254 @@
+[
+  {
+    "id": "frame",
+    "name": "Frame",
+    "category": "Body & Frame",
+    "bikeType": "bicycle",
+    "svgLayerId": "bicycle-frame",
+    "whatItDoes": "Frame helps your bicycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "Low",
+    "relatedIds": [
+      "tyres",
+      "fork"
+    ],
+    "analogy": "The skeleton"
+  },
+  {
+    "id": "fork",
+    "name": "Fork",
+    "category": "Suspension",
+    "bikeType": "bicycle",
+    "svgLayerId": "bicycle-fork",
+    "whatItDoes": "Fork helps your bicycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "Medium",
+    "relatedIds": [
+      "frame",
+      "handlebar"
+    ],
+    "analogy": "Springy front legs that guide the wheel"
+  },
+  {
+    "id": "handlebar",
+    "name": "Handlebar",
+    "category": "Body & Frame",
+    "bikeType": "bicycle",
+    "svgLayerId": "bicycle-handlebar",
+    "whatItDoes": "Handlebar helps your bicycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "High",
+    "relatedIds": [
+      "fork",
+      "saddle"
+    ],
+    "analogy": "The steering wheel"
+  },
+  {
+    "id": "saddle",
+    "name": "Saddle",
+    "category": "Body & Frame",
+    "bikeType": "bicycle",
+    "svgLayerId": "bicycle-saddle",
+    "whatItDoes": "Saddle helps your bicycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "Low",
+    "relatedIds": [
+      "handlebar",
+      "pedals"
+    ],
+    "analogy": "Your bike seat"
+  },
+  {
+    "id": "pedals",
+    "name": "Pedals",
+    "category": "Transmission",
+    "bikeType": "bicycle",
+    "svgLayerId": "bicycle-pedals",
+    "whatItDoes": "Pedals helps your bicycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "Medium",
+    "relatedIds": [
+      "saddle",
+      "crankset"
+    ],
+    "analogy": "The steps your feet push"
+  },
+  {
+    "id": "crankset",
+    "name": "Crankset",
+    "category": "Transmission",
+    "bikeType": "bicycle",
+    "svgLayerId": "bicycle-crankset",
+    "whatItDoes": "Crankset helps your bicycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "High",
+    "relatedIds": [
+      "pedals",
+      "chain"
+    ],
+    "analogy": "The arms that turn your pedalling into motion"
+  },
+  {
+    "id": "chain",
+    "name": "Chain",
+    "category": "Transmission",
+    "bikeType": "bicycle",
+    "svgLayerId": "bicycle-chain",
+    "whatItDoes": "Chain helps your bicycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "Low",
+    "relatedIds": [
+      "crankset",
+      "rear-derailleur"
+    ],
+    "analogy": "A bridge carrying your pedalling power to the wheel"
+  },
+  {
+    "id": "rear-derailleur",
+    "name": "Rear derailleur",
+    "category": "Transmission",
+    "bikeType": "bicycle",
+    "svgLayerId": "bicycle-rear-derailleur",
+    "whatItDoes": "Rear derailleur helps your bicycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "Medium",
+    "relatedIds": [
+      "chain",
+      "cassette"
+    ],
+    "analogy": "A little guide that moves the chain between gears"
+  },
+  {
+    "id": "cassette",
+    "name": "Cassette",
+    "category": "Transmission",
+    "bikeType": "bicycle",
+    "svgLayerId": "bicycle-cassette",
+    "whatItDoes": "Cassette helps your bicycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "High",
+    "relatedIds": [
+      "rear-derailleur",
+      "brake-calipers"
+    ],
+    "analogy": "A stack of gears for hills and speed"
+  },
+  {
+    "id": "brake-calipers",
+    "name": "Brake calipers",
+    "category": "Brakes",
+    "bikeType": "bicycle",
+    "svgLayerId": "bicycle-brake-calipers",
+    "whatItDoes": "Brake calipers helps your bicycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "Low",
+    "relatedIds": [
+      "cassette",
+      "wheels"
+    ],
+    "analogy": "Clamps that squeeze the wheel rim"
+  },
+  {
+    "id": "wheels",
+    "name": "Wheels",
+    "category": "Wheels & Tyres",
+    "bikeType": "bicycle",
+    "svgLayerId": "bicycle-wheels",
+    "whatItDoes": "Wheels helps your bicycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "Medium",
+    "relatedIds": [
+      "brake-calipers",
+      "tyres"
+    ],
+    "analogy": "Round feet that carry you"
+  },
+  {
+    "id": "tyres",
+    "name": "Tyres",
+    "category": "Wheels & Tyres",
+    "bikeType": "bicycle",
+    "svgLayerId": "bicycle-tyres",
+    "whatItDoes": "Tyres helps your bicycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "High",
+    "relatedIds": [
+      "wheels",
+      "frame"
+    ],
+    "analogy": "Your shoes on the road"
+  }
+]

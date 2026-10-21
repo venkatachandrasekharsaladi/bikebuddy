@@ -1,0 +1,14 @@
+[
+  {
+    "id": "bike-1",
+    "brand": "Royal Enfield",
+    "model": "Classic 350",
+    "year": 2022,
+    "bikeType": "motorcycle",
+    "registration": "MH 01 AB 1234",
+    "odometerKm": 12480,
+    "photoUri": "",
+    "healthScore": 82,
+    "createdAt": "2025-01-10"
+  }
+]

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+  <g id="bike-assembled" fill="none" stroke="#AAB2BF" stroke-width="18"><circle cx="300" cy="500" r="120"/><circle cx="900" cy="500" r="120"/><path d="M300 500L500 300 650 500 900 500M500 300h180l220 200M500 300l-40-60M680 300l40-60"/></g>
+  <g id="part-frame" data-anchor-x="560" data-anchor-y="400"><path d="M300 500L500 300 650 500H300M500 300h180l220 200" fill="none" stroke="#667080"/></g>
+  <g id="part-fork" data-anchor-x="820" data-anchor-y="350"><path d="M680 300l220 200" stroke="#667080"/></g>
+  <g id="part-handlebar" data-anchor-x="680" data-anchor-y="240"><path d="M640 240h100" stroke="#667080"/></g>
+  <g id="part-saddle" data-anchor-x="500" data-anchor-y="260"><path d="M450 260h100" stroke="#667080" stroke-width="24"/></g>
+  <g id="part-pedals" data-anchor-x="600" data-anchor-y="470"><circle cx="600" cy="470" r="24" fill="#667080"/></g>
+  <g id="part-crankset" data-anchor-x="600" data-anchor-y="470"><circle cx="600" cy="470" r="40" fill="none" stroke="#667080"/></g>
+  <g id="part-chain" data-anchor-x="600" data-anchor-y="470"><path d="M600 470H850" stroke="#FF6B1A"/></g>
+  <g id="part-rear-derailleur" data-anchor-x="820" data-anchor-y="500"><circle cx="820" cy="500" r="20" fill="#667080"/></g>
+  <g id="part-cassette" data-anchor-x="850" data-anchor-y="500"><circle cx="850" cy="500" r="35" fill="none" stroke="#667080"/></g>
+  <g id="part-brake-calipers" data-anchor-x="850" data-anchor-y="430"><rect x="830" y="410" width="40" height="35" fill="#667080"/></g>
+  <g id="part-wheels" data-anchor-x="600" data-anchor-y="500"><circle cx="300" cy="500" r="120" fill="none" stroke="#667080"/><circle cx="900" cy="500" r="120" fill="none" stroke="#667080"/></g>
+  <g id="part-tyres" data-anchor-x="600" data-anchor-y="500"><circle cx="300" cy="500" r="108" fill="none" stroke="#667080" stroke-width="14"/><circle cx="900" cy="500" r="108" fill="none" stroke="#667080" stroke-width="14"/></g>
+</svg>

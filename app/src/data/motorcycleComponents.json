@@ -1,0 +1,674 @@
+[
+  {
+    "id": "engine",
+    "name": "Engine",
+    "category": "Engine",
+    "bikeType": "motorcycle",
+    "svgLayerId": "motorcycle-engine",
+    "whatItDoes": "Engine helps your motorcycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "Low",
+    "relatedIds": [
+      "side-stand",
+      "piston"
+    ],
+    "analogy": "The heart that makes power"
+  },
+  {
+    "id": "piston",
+    "name": "Piston",
+    "category": "Engine",
+    "bikeType": "motorcycle",
+    "svgLayerId": "motorcycle-piston",
+    "whatItDoes": "Piston helps your motorcycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "Medium",
+    "relatedIds": [
+      "engine",
+      "cylinder"
+    ],
+    "analogy": "A tiny pump that pushes up and down"
+  },
+  {
+    "id": "cylinder",
+    "name": "Cylinder",
+    "category": "Engine",
+    "bikeType": "motorcycle",
+    "svgLayerId": "motorcycle-cylinder",
+    "whatItDoes": "Cylinder helps your motorcycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "High",
+    "relatedIds": [
+      "piston",
+      "spark-plug"
+    ],
+    "analogy": "The tube the piston lives in"
+  },
+  {
+    "id": "spark-plug",
+    "name": "Spark plug",
+    "category": "Engine",
+    "bikeType": "motorcycle",
+    "svgLayerId": "motorcycle-spark-plug",
+    "whatItDoes": "Spark plug helps your motorcycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "Low",
+    "relatedIds": [
+      "cylinder",
+      "air-filter"
+    ],
+    "analogy": "A lighter that starts the tiny fire"
+  },
+  {
+    "id": "air-filter",
+    "name": "Air filter",
+    "category": "Engine",
+    "bikeType": "motorcycle",
+    "svgLayerId": "motorcycle-air-filter",
+    "whatItDoes": "Air filter helps your motorcycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "Medium",
+    "relatedIds": [
+      "spark-plug",
+      "fuel-injector"
+    ],
+    "analogy": "A mask so the engine breathes clean air"
+  },
+  {
+    "id": "fuel-injector",
+    "name": "Fuel injector / carburetor",
+    "category": "Engine",
+    "bikeType": "motorcycle",
+    "svgLayerId": "motorcycle-fuel-injector",
+    "whatItDoes": "Fuel injector / carburetor helps your motorcycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "High",
+    "relatedIds": [
+      "air-filter",
+      "fuel-tank"
+    ],
+    "analogy": "A spray bottle mixing fuel with air"
+  },
+  {
+    "id": "fuel-tank",
+    "name": "Fuel tank",
+    "category": "Body & Frame",
+    "bikeType": "motorcycle",
+    "svgLayerId": "motorcycle-fuel-tank",
+    "whatItDoes": "Fuel tank helps your motorcycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "Low",
+    "relatedIds": [
+      "fuel-injector",
+      "exhaust"
+    ],
+    "analogy": "The water bottle for your bike"
+  },
+  {
+    "id": "exhaust",
+    "name": "Exhaust",
+    "category": "Engine",
+    "bikeType": "motorcycle",
+    "svgLayerId": "motorcycle-exhaust",
+    "whatItDoes": "Exhaust helps your motorcycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "Medium",
+    "relatedIds": [
+      "fuel-tank",
+      "clutch"
+    ],
+    "analogy": "The chimney for used gases"
+  },
+  {
+    "id": "clutch",
+    "name": "Clutch",
+    "category": "Transmission",
+    "bikeType": "motorcycle",
+    "svgLayerId": "motorcycle-clutch",
+    "whatItDoes": "Clutch helps your motorcycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "High",
+    "relatedIds": [
+      "exhaust",
+      "gearbox"
+    ],
+    "analogy": "A handshake that connects or disconnects engine and wheels"
+  },
+  {
+    "id": "gearbox",
+    "name": "Gearbox",
+    "category": "Transmission",
+    "bikeType": "motorcycle",
+    "svgLayerId": "motorcycle-gearbox",
+    "whatItDoes": "Gearbox helps your motorcycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "Low",
+    "relatedIds": [
+      "clutch",
+      "chain"
+    ],
+    "analogy": "The gears on a cycle, but inside"
+  },
+  {
+    "id": "chain",
+    "name": "Chain",
+    "category": "Transmission",
+    "bikeType": "motorcycle",
+    "svgLayerId": "motorcycle-chain",
+    "whatItDoes": "Chain helps your motorcycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "Medium",
+    "relatedIds": [
+      "gearbox",
+      "front-sprocket"
+    ],
+    "analogy": "A bridge carrying power to the wheel"
+  },
+  {
+    "id": "front-sprocket",
+    "name": "Front sprocket",
+    "category": "Transmission",
+    "bikeType": "motorcycle",
+    "svgLayerId": "motorcycle-front-sprocket",
+    "whatItDoes": "Front sprocket helps your motorcycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "High",
+    "relatedIds": [
+      "chain",
+      "rear-sprocket"
+    ],
+    "analogy": "Small gear that pulls the chain"
+  },
+  {
+    "id": "rear-sprocket",
+    "name": "Rear sprocket",
+    "category": "Transmission",
+    "bikeType": "motorcycle",
+    "svgLayerId": "motorcycle-rear-sprocket",
+    "whatItDoes": "Rear sprocket helps your motorcycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "Low",
+    "relatedIds": [
+      "front-sprocket",
+      "front-brake-disc"
+    ],
+    "analogy": "Big gear that turns the wheel"
+  },
+  {
+    "id": "front-brake-disc",
+    "name": "Front brake disc",
+    "category": "Brakes",
+    "bikeType": "motorcycle",
+    "svgLayerId": "motorcycle-front-brake-disc",
+    "whatItDoes": "Front brake disc helps your motorcycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "Medium",
+    "relatedIds": [
+      "rear-sprocket",
+      "brake-pads"
+    ],
+    "analogy": "A metal plate that gets squeezed to slow down"
+  },
+  {
+    "id": "brake-pads",
+    "name": "Brake pads",
+    "category": "Brakes",
+    "bikeType": "motorcycle",
+    "svgLayerId": "motorcycle-brake-pads",
+    "whatItDoes": "Brake pads helps your motorcycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "High",
+    "relatedIds": [
+      "front-brake-disc",
+      "brake-caliper"
+    ],
+    "analogy": "Rubbing blocks that do the squeezing"
+  },
+  {
+    "id": "brake-caliper",
+    "name": "Brake caliper",
+    "category": "Brakes",
+    "bikeType": "motorcycle",
+    "svgLayerId": "motorcycle-brake-caliper",
+    "whatItDoes": "Brake caliper helps your motorcycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "Low",
+    "relatedIds": [
+      "brake-pads",
+      "brake-lever"
+    ],
+    "analogy": "The hand that squeezes the disc"
+  },
+  {
+    "id": "brake-lever",
+    "name": "Brake lever",
+    "category": "Brakes",
+    "bikeType": "motorcycle",
+    "svgLayerId": "motorcycle-brake-lever",
+    "whatItDoes": "Brake lever helps your motorcycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "Medium",
+    "relatedIds": [
+      "brake-caliper",
+      "rear-brake"
+    ],
+    "analogy": "Your finger's control for stopping"
+  },
+  {
+    "id": "rear-brake",
+    "name": "Rear brake",
+    "category": "Brakes",
+    "bikeType": "motorcycle",
+    "svgLayerId": "motorcycle-rear-brake",
+    "whatItDoes": "Rear brake helps your motorcycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "High",
+    "relatedIds": [
+      "brake-lever",
+      "front-fork"
+    ],
+    "analogy": "Back-wheel helper for stopping"
+  },
+  {
+    "id": "front-fork",
+    "name": "Front fork",
+    "category": "Suspension",
+    "bikeType": "motorcycle",
+    "svgLayerId": "motorcycle-front-fork",
+    "whatItDoes": "Front fork helps your motorcycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "Low",
+    "relatedIds": [
+      "rear-brake",
+      "rear-shock"
+    ],
+    "analogy": "Springy legs that soak bumps"
+  },
+  {
+    "id": "rear-shock",
+    "name": "Rear shock absorber",
+    "category": "Suspension",
+    "bikeType": "motorcycle",
+    "svgLayerId": "motorcycle-rear-shock",
+    "whatItDoes": "Rear shock absorber helps your motorcycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "Medium",
+    "relatedIds": [
+      "front-fork",
+      "front-tyre"
+    ],
+    "analogy": "A cushion under the seat"
+  },
+  {
+    "id": "front-tyre",
+    "name": "Front tyre",
+    "category": "Wheels & Tyres",
+    "bikeType": "motorcycle",
+    "svgLayerId": "motorcycle-front-tyre",
+    "whatItDoes": "Front tyre helps your motorcycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "High",
+    "relatedIds": [
+      "rear-shock",
+      "rear-tyre"
+    ],
+    "analogy": "Your shoe on the road"
+  },
+  {
+    "id": "rear-tyre",
+    "name": "Rear tyre",
+    "category": "Wheels & Tyres",
+    "bikeType": "motorcycle",
+    "svgLayerId": "motorcycle-rear-tyre",
+    "whatItDoes": "Rear tyre helps your motorcycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "Low",
+    "relatedIds": [
+      "front-tyre",
+      "rims"
+    ],
+    "analogy": "The shoe that pushes you forward"
+  },
+  {
+    "id": "rims",
+    "name": "Rims",
+    "category": "Wheels & Tyres",
+    "bikeType": "motorcycle",
+    "svgLayerId": "motorcycle-rims",
+    "whatItDoes": "Rims helps your motorcycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "Medium",
+    "relatedIds": [
+      "rear-tyre",
+      "spokes"
+    ],
+    "analogy": "The frame the tyre sits on"
+  },
+  {
+    "id": "spokes",
+    "name": "Spokes",
+    "category": "Wheels & Tyres",
+    "bikeType": "motorcycle",
+    "svgLayerId": "motorcycle-spokes",
+    "whatItDoes": "Spokes helps your motorcycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "High",
+    "relatedIds": [
+      "rims",
+      "battery"
+    ],
+    "analogy": "Thin rods that keep the wheel round"
+  },
+  {
+    "id": "battery",
+    "name": "Battery",
+    "category": "Electrical",
+    "bikeType": "motorcycle",
+    "svgLayerId": "motorcycle-battery",
+    "whatItDoes": "Battery helps your motorcycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "Low",
+    "relatedIds": [
+      "spokes",
+      "self-starter"
+    ],
+    "analogy": "Stored electricity for starting and lights"
+  },
+  {
+    "id": "self-starter",
+    "name": "Self starter",
+    "category": "Electrical",
+    "bikeType": "motorcycle",
+    "svgLayerId": "motorcycle-self-starter",
+    "whatItDoes": "Self starter helps your motorcycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "Medium",
+    "relatedIds": [
+      "battery",
+      "headlight"
+    ],
+    "analogy": "The button that wakes the engine"
+  },
+  {
+    "id": "headlight",
+    "name": "Headlight",
+    "category": "Electrical",
+    "bikeType": "motorcycle",
+    "svgLayerId": "motorcycle-headlight",
+    "whatItDoes": "Headlight helps your motorcycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "High",
+    "relatedIds": [
+      "self-starter",
+      "indicators"
+    ],
+    "analogy": "Your eyes at night"
+  },
+  {
+    "id": "indicators",
+    "name": "Indicators",
+    "category": "Electrical",
+    "bikeType": "motorcycle",
+    "svgLayerId": "motorcycle-indicators",
+    "whatItDoes": "Indicators helps your motorcycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "Low",
+    "relatedIds": [
+      "headlight",
+      "handlebar"
+    ],
+    "analogy": "Blinking arrows telling others where you turn"
+  },
+  {
+    "id": "handlebar",
+    "name": "Handlebar",
+    "category": "Body & Frame",
+    "bikeType": "motorcycle",
+    "svgLayerId": "motorcycle-handlebar",
+    "whatItDoes": "Handlebar helps your motorcycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "Medium",
+    "relatedIds": [
+      "indicators",
+      "frame"
+    ],
+    "analogy": "The steering wheel"
+  },
+  {
+    "id": "frame",
+    "name": "Frame",
+    "category": "Body & Frame",
+    "bikeType": "motorcycle",
+    "svgLayerId": "motorcycle-frame",
+    "whatItDoes": "Frame helps your motorcycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "High",
+    "relatedIds": [
+      "handlebar",
+      "seat"
+    ],
+    "analogy": "The skeleton"
+  },
+  {
+    "id": "seat",
+    "name": "Seat",
+    "category": "Body & Frame",
+    "bikeType": "motorcycle",
+    "svgLayerId": "motorcycle-seat",
+    "whatItDoes": "Seat helps your motorcycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "Low",
+    "relatedIds": [
+      "frame",
+      "side-stand"
+    ],
+    "analogy": "Your comfy chair"
+  },
+  {
+    "id": "side-stand",
+    "name": "Side stand",
+    "category": "Body & Frame",
+    "bikeType": "motorcycle",
+    "svgLayerId": "motorcycle-side-stand",
+    "whatItDoes": "Side stand helps your motorcycle work the way it should.",
+    "whyItMatters": "It helps keep your ride safe, smooth, and ready for the road.",
+    "warningSigns": [
+      "It feels different than usual.",
+      "You notice a strange sound or smell.",
+      "The bike feels less safe or smooth."
+    ],
+    "checkInterval": "Check every 1,000 km or once a month.",
+    "costRange": "Medium",
+    "relatedIds": [
+      "seat",
+      "engine"
+    ],
+    "analogy": "The leg that holds the bike up"
+  }
+]

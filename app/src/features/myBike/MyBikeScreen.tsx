@@ -1,0 +1,43 @@
+import React, { useEffect, useMemo, useState } from 'react';
+import { ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Button, Card, FloatingActionMenu, ListRow, ProgressRing, Skeleton } from '../../components/ui';
+import { useBikeStore, useFuelStore, useServiceStore, useTaskStore } from '../../store';
+import { Bike } from '../../types';
+import { useTheme } from '../../theme/useTheme';
+import { BikeOnboarding } from './BikeOnboarding';
+import { CareScreen } from './CareScreen';
+import { FuelScreen } from './FuelScreen';
+import { ServiceScreen } from './ServiceScreen';
+
+type ViewName = 'dashboard' | 'care' | 'service' | 'fuel';
+export function MyBikeScreen() {
+  const theme = useTheme();
+  const bikes = useBikeStore((state) => state.bikes);
+  const activeBikeId = useBikeStore((state) => state.activeBikeId);
+  const loadBikes = useBikeStore((state) => state.load);
+  const addBike = useBikeStore((state) => state.addBike);
+  const setActiveBike = useBikeStore((state) => state.setActiveBike);
+  const tasks = useTaskStore((state) => state.tasks);
+  const loadTasks = useTaskStore((state) => state.load);
+  const entries = useFuelStore((state) => state.entries);
+  const loadFuel = useFuelStore((state) => state.load);
+  const records = useServiceStore((state) => state.records);
+  const loadServices = useServiceStore((state) => state.load);
+  const [view, setView] = useState<ViewName>('dashboard');
+  const [loading, setLoading] = useState(true);
+  const [onboarding, setOnboarding] = useState(false);
+  useEffect(() => { Promise.all([loadBikes(), loadTasks()]).finally(() => setLoading(false)); }, [loadBikes, loadTasks]);
+  const bike = bikes.find((item) => item.id === activeBikeId);
+  useEffect(() => { if (bike) { void loadFuel(bike.id); void loadServices(bike.id); } }, [bike, loadFuel, loadServices]);
+  if (loading) return <View style={styles.center}><Skeleton width="85%" height={180} /><Skeleton width="60%" height={24} /></View>;
+  if (!bike && !onboarding) return <View style={styles.center}><Text style={[styles.title, { color: theme.colors.text, fontFamily: theme.fontFamily }]}>Your bike is waiting</Text><Text style={[styles.copy, { color: theme.colors.textMuted, fontFamily: theme.fontFamily }]}>Add a bike to see care tasks, services, and fuel costs.</Text><Button label="Add your bike" onPress={() => setOnboarding(true)} /></View>;
+  if (onboarding) return <ScrollView contentContainerStyle={styles.page}><BikeOnboarding onSave={(newBike) => { addBike(newBike); setOnboarding(false); }} /></ScrollView>;
+  if (!bike) return null;
+  if (view === 'care') return <CareScreen tasks={tasks} odometerKm={bike.odometerKm} onBack={() => setView('dashboard')} />;
+  if (view === 'service') return <ServiceScreen bikeId={bike.id} odometerKm={bike.odometerKm} onBack={() => setView('dashboard')} />;
+  if (view === 'fuel') return <FuelScreen bikeId={bike.id} onBack={() => setView('dashboard')} />;
+  const nextTask = tasks.find((task) => task.status !== 'on-time');
+  const average = entries.length > 1 ? '38 km/l' : '—';
+  return <View style={styles.screen}><ScrollView contentContainerStyle={styles.page}><Text style={[styles.title, { color: theme.colors.text, fontFamily: theme.fontFamily }]}>My Bike</Text><ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.switcher}>{bikes.map((item) => <Button key={item.id} label={`${item.brand} ${item.model}`} variant={item.id === bike.id ? 'primary' : 'secondary'} onPress={() => setActiveBike(item.id)} />)}<Button label="+ Add bike" variant="ghost" onPress={() => setOnboarding(true)} /></ScrollView><Card><Text style={[styles.bikeName, { color: theme.colors.text, fontFamily: theme.fontFamily }]}>{bike.brand} {bike.model}</Text><Text style={[styles.copy, { color: theme.colors.textMuted, fontFamily: theme.fontFamily }]}>{bike.odometerKm.toLocaleString()} km · {bike.year}</Text><ProgressRing progress={bike.healthScore / 100} label="Health" /></Card><View style={styles.cards}><Card><Text style={[styles.cardTitle, { color: theme.colors.text, fontFamily: theme.fontFamily }]}>Next due</Text><Text style={{ color: theme.colors.textMuted }}>{nextTask?.name ?? 'All caught up'}</Text></Card><Card><Text style={[styles.cardTitle, { color: theme.colors.text, fontFamily: theme.fontFamily }]}>Last service</Text><Text style={{ color: theme.colors.textMuted }}>{records[0]?.date.slice(0, 10) ?? 'Not added yet'}</Text></Card><Card><Text style={[styles.cardTitle, { color: theme.colors.text, fontFamily: theme.fontFamily }]}>Fuel average</Text><Text style={{ color: theme.colors.textMuted }}>{average}</Text></Card></View><ListRow title="Care checklist" subtitle="Keep small jobs from becoming big ones." onPress={() => setView('care')} /><ListRow title="Service history" subtitle="See bills and your next service." onPress={() => setView('service')} /><ListRow title="Fuel log" subtitle="Track mileage and running cost." onPress={() => setView('fuel')} /></ScrollView><FloatingActionMenu actions={[{ label: 'Add fuel', onPress: () => setView('fuel') }, { label: 'Mark chore done', onPress: () => setView('care') }, { label: 'Add service', onPress: () => setView('service') }, { label: 'Scan bill', onPress: () => setView('service') }]} /></View>;
+}
+const styles = StyleSheet.create({ screen: { flex: 1 }, page: { padding: 16, gap: 16, paddingBottom: 96 }, center: { flex: 1, alignItems: 'center', justifyContent: 'center', gap: 16, padding: 24 }, title: { fontSize: 26, lineHeight: 32, fontWeight: '700' }, bikeName: { fontSize: 20, lineHeight: 28, fontWeight: '600' }, copy: { fontSize: 16, lineHeight: 24 }, switcher: { gap: 8 }, cards: { gap: 12 }, cardTitle: { fontSize: 14, lineHeight: 20, fontWeight: '600', marginBottom: 4 } });

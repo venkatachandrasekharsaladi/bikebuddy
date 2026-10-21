@@ -1,0 +1,202 @@
+[
+  {
+    "id": "fuel-1",
+    "bikeId": "bike-1",
+    "date": "2025-06-01",
+    "litres": 8.5,
+    "pricePerLitreInr": 103.0,
+    "totalInr": 875.5,
+    "odometerKm": 9800,
+    "fullTank": false
+  },
+  {
+    "id": "fuel-2",
+    "bikeId": "bike-1",
+    "date": "2025-06-10",
+    "litres": 9.2,
+    "pricePerLitreInr": 104.5,
+    "totalInr": 961.4,
+    "odometerKm": 9940,
+    "fullTank": true
+  },
+  {
+    "id": "fuel-3",
+    "bikeId": "bike-1",
+    "date": "2025-06-19",
+    "litres": 9.9,
+    "pricePerLitreInr": 106.0,
+    "totalInr": 1049.4,
+    "odometerKm": 10080,
+    "fullTank": true
+  },
+  {
+    "id": "fuel-4",
+    "bikeId": "bike-1",
+    "date": "2025-06-28",
+    "litres": 10.6,
+    "pricePerLitreInr": 107.5,
+    "totalInr": 1139.5,
+    "odometerKm": 10220,
+    "fullTank": false
+  },
+  {
+    "id": "fuel-5",
+    "bikeId": "bike-1",
+    "date": "2025-07-07",
+    "litres": 11.3,
+    "pricePerLitreInr": 103.0,
+    "totalInr": 1163.9,
+    "odometerKm": 10360,
+    "fullTank": true
+  },
+  {
+    "id": "fuel-6",
+    "bikeId": "bike-1",
+    "date": "2025-07-16",
+    "litres": 8.5,
+    "pricePerLitreInr": 104.5,
+    "totalInr": 888.25,
+    "odometerKm": 10500,
+    "fullTank": true
+  },
+  {
+    "id": "fuel-7",
+    "bikeId": "bike-1",
+    "date": "2025-07-25",
+    "litres": 9.2,
+    "pricePerLitreInr": 106.0,
+    "totalInr": 975.2,
+    "odometerKm": 10640,
+    "fullTank": false
+  },
+  {
+    "id": "fuel-8",
+    "bikeId": "bike-1",
+    "date": "2025-08-03",
+    "litres": 9.9,
+    "pricePerLitreInr": 107.5,
+    "totalInr": 1064.25,
+    "odometerKm": 10780,
+    "fullTank": true
+  },
+  {
+    "id": "fuel-9",
+    "bikeId": "bike-1",
+    "date": "2025-08-12",
+    "litres": 10.6,
+    "pricePerLitreInr": 103.0,
+    "totalInr": 1091.8,
+    "odometerKm": 10920,
+    "fullTank": true
+  },
+  {
+    "id": "fuel-10",
+    "bikeId": "bike-1",
+    "date": "2025-08-21",
+    "litres": 11.3,
+    "pricePerLitreInr": 104.5,
+    "totalInr": 1180.85,
+    "odometerKm": 11060,
+    "fullTank": false
+  },
+  {
+    "id": "fuel-11",
+    "bikeId": "bike-1",
+    "date": "2025-08-30",
+    "litres": 8.5,
+    "pricePerLitreInr": 106.0,
+    "totalInr": 901.0,
+    "odometerKm": 11200,
+    "fullTank": true
+  },
+  {
+    "id": "fuel-12",
+    "bikeId": "bike-1",
+    "date": "2025-09-08",
+    "litres": 9.2,
+    "pricePerLitreInr": 107.5,
+    "totalInr": 989.0,
+    "odometerKm": 11340,
+    "fullTank": true
+  },
+  {
+    "id": "fuel-13",
+    "bikeId": "bike-1",
+    "date": "2025-09-17",
+    "litres": 9.9,
+    "pricePerLitreInr": 103.0,
+    "totalInr": 1019.7,
+    "odometerKm": 11480,
+    "fullTank": false
+  },
+  {
+    "id": "fuel-14",
+    "bikeId": "bike-1",
+    "date": "2025-09-26",
+    "litres": 10.6,
+    "pricePerLitreInr": 104.5,
+    "totalInr": 1107.7,
+    "odometerKm": 11620,
+    "fullTank": true
+  },
+  {
+    "id": "fuel-15",
+    "bikeId": "bike-1",
+    "date": "2025-10-05",
+    "litres": 11.3,
+    "pricePerLitreInr": 106.0,
+    "totalInr": 1197.8,
+    "odometerKm": 11760,
+    "fullTank": true
+  },
+  {
+    "id": "fuel-16",
+    "bikeId": "bike-1",
+    "date": "2025-10-14",
+    "litres": 8.5,
+    "pricePerLitreInr": 107.5,
+    "totalInr": 913.75,
+    "odometerKm": 11900,
+    "fullTank": false
+  },
+  {
+    "id": "fuel-17",
+    "bikeId": "bike-1",
+    "date": "2025-10-23",
+    "litres": 9.2,
+    "pricePerLitreInr": 103.0,
+    "totalInr": 947.6,
+    "odometerKm": 12040,
+    "fullTank": true
+  },
+  {
+    "id": "fuel-18",
+    "bikeId": "bike-1",
+    "date": "2025-11-01",
+    "litres": 9.9,
+    "pricePerLitreInr": 104.5,
+    "totalInr": 1034.55,
+    "odometerKm": 12180,
+    "fullTank": true
+  },
+  {
+    "id": "fuel-19",
+    "bikeId": "bike-1",
+    "date": "2025-11-10",
+    "litres": 10.6,
+    "pricePerLitreInr": 106.0,
+    "totalInr": 1123.6,
+    "odometerKm": 12320,
+    "fullTank": false
+  },
+  {
+    "id": "fuel-20",
+    "bikeId": "bike-1",
+    "date": "2025-11-19",
+    "litres": 11.3,
+    "pricePerLitreInr": 107.5,
+    "totalInr": 1214.75,
+    "odometerKm": 12460,
+    "fullTank": true
+  }
+]

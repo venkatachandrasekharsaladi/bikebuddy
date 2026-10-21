@@ -1,0 +1,5 @@
+import React from 'react';
+import { Pressable, StyleSheet, Text } from 'react-native';
+import { useTheme } from '../../theme/useTheme';
+export function Chip({ label, selected = false, onPress, accessibilityLabel }: { label: string; selected?: boolean; onPress?: () => void; accessibilityLabel?: string }) { const theme = useTheme(); return <Pressable accessibilityRole={onPress ? 'button' : 'text'} accessibilityLabel={accessibilityLabel ?? label} accessibilityState={onPress ? { selected } : undefined} disabled={!onPress} onPress={onPress} style={[styles.chip, { backgroundColor: selected ? theme.colors.primary : theme.colors.surfaceAlt, borderColor: selected ? theme.colors.primary : theme.colors.border }]}><Text allowFontScaling style={[styles.text, { color: selected ? theme.colors.onPrimary : theme.colors.text, fontFamily: theme.fontFamily }]}>{label}</Text></Pressable>; }
+const styles = StyleSheet.create({ chip: { minHeight: 48, paddingHorizontal: 16, borderRadius: 999, borderWidth: 1, justifyContent: 'center' }, text: { fontSize: 14, lineHeight: 20, fontWeight: '500' } });
